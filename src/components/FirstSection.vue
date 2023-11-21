@@ -13,7 +13,6 @@
             </div>
             <div class="right">
                 <img src="/img/Graduation-Illustration.png" alt="Graduation">
-                <img class="shadow" src="/img/home-background.png" alt="">
             </div>
         </div>
     </section>
@@ -64,21 +63,15 @@ export default {
             border: none;
         }
     }
-}
+
 
 .right {
     width: 50%;
     margin-left: 50px;
-    position: relative;
 
     img {
         width: 450px;
     }
-
-    .shadow {
-        position: absolute;
-        right: 0;
-        top: 100px;
-    }
+}
 }
 </style>
