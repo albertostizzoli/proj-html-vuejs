@@ -1,6 +1,6 @@
 <template>
     <div class="hero-container">
-        <div class="bg_color">
+        <div class="background-color">
             <div class="header">
                 <img src="/img/theme_eduprime_logo.png" alt="Logo">
                 <nav>
@@ -9,7 +9,7 @@
                             <a :href="element.url">{{ element.text }}<i class="fa-solid fa-caret-down ms-1 "></i></a>
                         </li>
                     </ul>
-                    <button class="btn_yellow ms-2">VIEW COURSES</button>
+                    <button class="btn-yellow ms-2">VIEW COURSES</button>
                 </nav>
             </div>
             <div class="jumbotron">
@@ -18,8 +18,8 @@
                     showcasting
                     universities, courses, secondary school etc.</p>
                 <div>
-                    <button class="btn_yellow me-2"><i class="fa-solid fa-magnifying-glass me-2"></i>Search Courses</button>
-                    <button class="btn_orange ms-2"><i class="fa-solid fa-user-plus me-2"></i>Apply for University</button>
+                    <button class="btn-yellow me-2"><i class="fa-solid fa-magnifying-glass me-2"></i>Search Courses</button>
+                    <button class="btn-orange ms-2"><i class="fa-solid fa-user-plus me-2"></i>Apply for University</button>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ ul {
     display: inline-block;
 }
 
-.btn_yellow {
+.btn-yellow {
     background-color: #E9D758;
     color: white;
     padding: 10px;
@@ -97,7 +97,7 @@ ul {
     font-weight: 700;
     color: white;
 
-    .bg_color {
+    .background-color {
         background-color: rgba($color: #E56768, $alpha: 0.8);
         position: absolute;
         top: 0;
@@ -152,7 +152,7 @@ ul {
     margin: 0 auto;
     text-align: center;
 
-    .btn_orange {
+    .btn-orange {
         background-color: white;
         color: #E56768;
         padding: 10px;

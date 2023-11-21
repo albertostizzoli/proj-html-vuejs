@@ -224,7 +224,7 @@ ul li {
 
         p {
             color: #E9D758;
-            margin: 40px 0;
+            margin-top: 10px;
             font-size: 15px;
         }
     }
@@ -248,7 +248,7 @@ ul li {
         border: 1px solid white;
         border-radius: 15px;
         padding: 5px;
-        margin: 3px;
+        margin-top:5px;
     }
 }
 </style>
