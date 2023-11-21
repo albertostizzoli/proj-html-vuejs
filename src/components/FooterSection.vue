@@ -218,7 +218,7 @@ ul li {
             background-color: #E9D758;
             border-radius: 50%;
             position: absolute;
-            top: -1px;
+            top: 0;
             right: -17px;
         }
 
