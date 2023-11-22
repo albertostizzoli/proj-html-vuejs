@@ -29,9 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="wave">
-            <img src="/img/svg-0.svg" alt="Wave">
-        </div>
+        <img src="/img/svg-0.svg" style="width: 100%; display: block;" alt="Wave">
     </section>
 </template>
 
@@ -61,7 +59,7 @@ export default {
                     image: 'Palette-tabs-v2.png',
                     text: 'Graphic Design',
                 },
-            ]
+            ],
         }
     }
 
@@ -152,18 +150,9 @@ export default {
                 background-color: #E56768;
                 color: white;
                 padding: 20px;
-                border-radius: 10px;
+                border-radius: 20px;
                 border: none;
             }
-        }
-    }
-
-    .wawe {
-        overflow: hidden;
-
-        img {
-            width: 100%;
-            display: block;
         }
     }
 }
