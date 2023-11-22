@@ -2,6 +2,7 @@
   <HeaderSection />
   <FirstSection />
   <CarouselSection />
+  <UniversitySection />
   <FooterSection />
 </template>
 
@@ -9,6 +10,7 @@
 import HeaderSection from './components/HeaderSection.vue';
 import FirstSection from './components/FirstSection.vue';
 import CarouselSection from './components/CarouselSection.vue';
+import UniversitySection from './components/UniversitySection.vue';
 import FooterSection from './components/FooterSection.vue';
 export default {
   name: 'App',
@@ -16,6 +18,7 @@ export default {
     HeaderSection,
     FirstSection,
     CarouselSection,
+    UniversitySection,
     FooterSection,
   }
 }
