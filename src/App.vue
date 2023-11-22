@@ -4,6 +4,7 @@
   <CarouselSection />
   <UniversitySection />
   <EventsSection />
+  <CoursesSection />
   <FooterSection />
 </template>
 
@@ -13,6 +14,7 @@ import FirstSection from './components/FirstSection.vue';
 import CarouselSection from './components/CarouselSection.vue';
 import UniversitySection from './components/UniversitySection.vue';
 import EventsSection from './components/EventsSection.vue';
+import CoursesSection from './components/CoursesSection.vue';
 import FooterSection from './components/FooterSection.vue';
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
     CarouselSection,
     UniversitySection,
     EventsSection,
+    CoursesSection,
     FooterSection,
   }
 }

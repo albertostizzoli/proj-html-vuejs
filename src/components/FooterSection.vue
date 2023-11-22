@@ -140,7 +140,7 @@ ul li {
 
 .footer {
     height: 400px;
-    background-color: #E56758;
+    background-color: #E56768;
     display: flex;
     padding-top: 100px;
     color: #ffffffCC;

@@ -9,12 +9,12 @@
                 <div v-for="(element, index) in carousel" :key="index" class="image-carousel"
                     :class="element.current ? 'active' : ''">
                     <img :src="`/img/${element.image}`" alt="images">
-                    <p><strong>{{ element.text }}</strong></p>
+                    <p class="mt-4"><strong>{{ element.text }}</strong></p>
                 </div>
             </div>
             <div class="carousel-content">
                 <div class="img-content">
-                    <img src="/img/Gavel-Illustration-e1556884768193.png" alt="">
+                    <img src="/img/Gavel-Illustration-e1556884768193.png" alt="Gavel">
                 </div>
                 <div class="text-content mt-3">
                     <h2>Law Faculty</h2>
