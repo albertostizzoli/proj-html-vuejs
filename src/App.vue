@@ -6,6 +6,7 @@
   <EventsSection />
   <CoursesSection />
   <InfoSection />
+  <PartnerSection />
   <FooterSection />
 </template>
 
@@ -17,6 +18,7 @@ import UniversitySection from './components/UniversitySection.vue';
 import EventsSection from './components/EventsSection.vue';
 import CoursesSection from './components/CoursesSection.vue';
 import InfoSection from './components/InfoSection.vue';
+import PartnerSection from './components/PartnerSection.vue';
 import FooterSection from './components/FooterSection.vue';
 export default {
   name: 'App',
@@ -28,6 +30,7 @@ export default {
     EventsSection,
     CoursesSection,
     InfoSection,
+    PartnerSection,
     FooterSection,
   }
 }
