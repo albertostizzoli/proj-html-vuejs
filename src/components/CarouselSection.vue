@@ -7,7 +7,7 @@
         </div>
         <div>
             <div class="d-flex w-75 m-2 m-auto pt-3">
-                <div v-for="(element, index) in carousel" :key="index" class="image-carousel"
+                <div v-for="(element, index) in store.carousel" :key="index" class="image-carousel"
                     :class="element.current ? 'active' : ''">
                     <img class="w-100" :src="`/img/${element.image}`" alt="images">
                     <p class="mt-4"><strong>{{ element.text }}</strong></p>
@@ -35,35 +35,14 @@
 </template>
 
 <script>
+import { store } from '../store.js';
 export default {
     name: 'CarouselSection',
     data() {
         return {
-            carousel: [
-                {
-                    image: 'Gavel-v2.png',
-                    text: 'Law faculty',
-                },
-                {
-                    image: 'Coins-tabs-v2.png',
-                    text: 'Economy',
-                },
-                {
-                    image: 'Medicine-tabs-v2.png',
-                    text: 'Medicine',
-                },
-                {
-                    image: 'Computer-tabs-v2.png',
-                    text: 'Computer Science',
-                },
-                {
-                    image: 'Palette-tabs-v2.png',
-                    text: 'Graphic Design',
-                },
-            ],
+            store
         }
-    }
-
+    },
 }
 </script>
 

@@ -20,7 +20,7 @@
             <div class="text-white">
                 <h3 class="mb-2 fs-5 ps-4">Get EduPrime</h3>
                 <ul class="pt-2">
-                    <li v-for="(element, index) in links" :key="index">
+                    <li v-for="(element, index) in store.footer_left" :key="index">
                         <a :href="element.url">
                             {{ element.text }}
                         </a>
@@ -30,7 +30,7 @@
             <div class="text-white">
                 <h3 class="mb-2 fs-5 ps-4">Networking</h3>
                 <ul class="pt-2">
-                    <li v-for="(element, index) in lists" :key="index">
+                    <li v-for="(element, index) in store.footer_right" :key="index">
                         <a :href="element.url">
                             {{ element.text }}
                         </a>
@@ -62,62 +62,12 @@
 </template>
 
 <script>
+import { store } from '../store.js';
 export default {
     name: 'FooterSection',
     data() {
         return {
-            links: [
-                {
-                    text: "Request a website",
-                    url: "#"
-                },
-                {
-                    text: "Browse Themes",
-                    url: "#",
-                },
-                {
-                    text: "Payment options",
-                    url: "#",
-                },
-                {
-                    text: "Support System",
-                    url: "#",
-                },
-                {
-                    text: "Checkout",
-                    url: "#",
-                },
-                {
-                    text: "Purchase Theme",
-                    url: "#",
-                }
-            ],
-            lists: [
-                {
-                    text: "Purchase Theme",
-                    url: "#"
-                },
-                {
-                    text: "Our Benefits",
-                    url: "#",
-                },
-                {
-                    text: "Our Team",
-                    url: "#",
-                },
-                {
-                    text: "Our Services",
-                    url: "#",
-                },
-                {
-                    text: "Other Products",
-                    url: "#",
-                },
-                {
-                    text: "My account",
-                    url: "#",
-                }
-            ],
+            store
         }
     },
 }
@@ -180,6 +130,7 @@ ul li {
         img {
             width: 185px;
         }
+
         p {
             margin: 25px 0;
         }
@@ -191,7 +142,7 @@ ul li {
         border-radius: 50%;
     }
 
-    .links{
+    .links {
         display: flex;
         width: 40%;
     }
@@ -243,12 +194,12 @@ ul li {
         }
     }
 
-    .btn-orange{
+    .btn-orange {
         background-color: #E56758;
         border: 1px solid white;
         border-radius: 15px;
         padding: 5px;
-        margin-top:5px;
+        margin-top: 5px;
     }
 }
 </style>

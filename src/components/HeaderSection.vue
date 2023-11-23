@@ -5,7 +5,7 @@
                 <img src="/img/theme_eduprime_logo.png" alt="Logo">
                 <nav>
                     <ul>
-                        <li class="d-inline-block" v-for="(element, index) in list" :key="index">
+                        <li class="d-inline-block" v-for="(element, index) in store.list_header" :key="index">
                             <a :href="element.url">{{ element.text }}<i class="fa-solid fa-caret-down ms-1 "></i></a>
                         </li>
                     </ul>
@@ -17,8 +17,10 @@
                 <h6 class="text-white p-3">EduPrime is the most versatile WordPress theme for educational purposes,
                     showcasting universities, courses, secondary school etc.</h6>
                 <div>
-                    <button class="btn-yellow me-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search Courses</button>
-                    <button class="btn-orange ms-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for University</button>
+                    <button class="btn-yellow me-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search
+                        Courses</button>
+                    <button class="btn-orange ms-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for
+                        University</button>
                 </div>
             </div>
         </div>
@@ -34,43 +36,14 @@
 </template>
 
 <script>
+import { store } from '../store.js';
 export default {
     name: 'HeaderSection',
     data() {
         return {
-            list: [
-                {
-                    text: "Home",
-                    url: "#"
-                },
-                {
-                    text: "Courses",
-                    url: "#"
-                },
-                {
-                    text: "About Us",
-                    url: "#"
-                },
-                {
-                    text: "News",
-                    url: "#"
-                },
-                {
-                    text: "Pages",
-                    url: "#"
-                },
-                {
-                    text: "Contact",
-                    url: "#"
-                },
-                {
-                    text: "Purchase",
-                    url: "#"
-                }
-            ],
+            store
         }
-    }
-
+    },
 }
 </script>
 
@@ -94,7 +67,7 @@ ul {
     background-repeat: no-repeat;
     position: relative;
 
-    .background{
+    .background {
         background-color: rgba($color: #E56768, $alpha: 0.8);
         position: absolute;
         top: 0;
@@ -117,24 +90,24 @@ ul {
             list-style-type: none;
             margin: 20px 0;
 
-                a {
-                    color: white;
-                    text-decoration: none;
-                    padding: 0 10px;
-                    font-weight: 800;
-                }
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 0 10px;
+                font-weight: 800;
+            }
 
-                a:hover{
-                    color: #E9D758;
-                }
+            a:hover {
+                color: #E9D758;
             }
         }
-
     }
 
-.icons{
+}
+
+.icons {
     position: absolute;
-    background-color:#E9D758;
+    background-color: #E9D758;
     left: 0;
     bottom: 200px;
     font-size: 20px;
