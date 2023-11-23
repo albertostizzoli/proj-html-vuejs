@@ -2,7 +2,7 @@
     <section class="text-white">
         <div class="contents text-center pt-5">
             <div class="mt-5">
-                <img src="/img/Clock-and-Bell.png" alt="">
+                <img src="/img/Clock-and-Bell.png" alt="Clock">
                 <br>
                 <h2 class="d-inline fs-1">University Year</h2>
             </div>
@@ -17,7 +17,7 @@
                         <p>On the day of graduation, all students gather for the ceremony and then network and party among others.</p>
                     </div>
                 </div>
-                <img src="/img/Timeline-Item.png" alt="">
+                <img src="/img/Timeline-Item.png" alt="Time-item">
                 <div class="orientation d-flex">
                     <div class="text-2 w-25">
                         <h4>Orientation</h4>

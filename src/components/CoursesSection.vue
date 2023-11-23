@@ -6,7 +6,7 @@
         <div class="courses-box d-flex justify-content-between flex-wrap">
             <h2>Latest Courses</h2>
             <div class="card-box" v-for="(element, index) in store.courses" :key="index">
-                <img :src="`/img/${element.image}`" alt="">
+                <img :src="`/img/${element.image}`" alt="courses">
                 <h4>{{ element.text }}</h4>
                 <h5><i class="fa-regular fa-user"></i> Teacher: <b>{{ element.teacher }}</b></h5>
                 <h5><i class="fa-regular fa-money-bill-1"></i> Price: <b>{{ element.price }}</b></h5>

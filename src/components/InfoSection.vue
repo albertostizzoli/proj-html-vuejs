@@ -1,20 +1,20 @@
 <template>
     <section class="info d-flex flex-wrap justify-content-evenly mt-5">
         <div class="text">
-            <img src="/img/Exam-icon.png" alt="">
+            <img src="/img/Exam-icon.png" alt="Exam">
             <h2>The most efficient examination method</h2>
             <p>EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the
                 evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</p>
             <button class="btn-red text-white">Discover the Method</button>
         </div>
         <div class="col-img w-50 ">
-            <img src="/img/Exam-Illustration.png" alt="">
+            <img src="/img/Exam-Illustration.png" alt="Exam">
         </div>
         <div class="col-img w-50">
-            <img src="/img/Girl-Illustration.png" alt="">
+            <img src="/img/Girl-Illustration.png" alt="Exam">
         </div>
         <div class="text">
-            <img src="/img/Exam-icon-1.png" alt="">
+            <img src="/img/Exam-icon-1.png" alt="Exam">
             <h2>Variable fees for international students</h2>
             <p>EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</p>
             <button class="btn-red text-white">List of Fees</button>

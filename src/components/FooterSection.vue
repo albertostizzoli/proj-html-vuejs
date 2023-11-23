@@ -2,14 +2,14 @@
     <div class="footer">
         <div class="buttons">
             <button class="footer-button">
-                <a href="#"><img src="/img/svg-3.svg" alt="">Purchase Theme</a>
+                <a href="#"><img src="/img/svg-3.svg" alt="Purchase">Purchase Theme</a>
             </button>
             <button class="footer-button">
-                <a href="#"><img src="/img/svg-2.svg" alt="">Related Themes</a>
+                <a href="#"><img src="/img/svg-2.svg" alt="Related">Related Themes</a>
             </button>
         </div>
         <div class="socials-box">
-            <a href="#"><img src="/img/theme_eduprime_logo.png" alt=""></a>
+            <a href="#"><img src="/img/theme_eduprime_logo.png" alt="Logo"></a>
             <p>EduPrime is the most versatile WordPress theme for educational purposes, showcasing universities,
                 courses, secondary school etc.</p>
             <a href="#"><i class="fa-brands fa-facebook-f socials p-3 me-2"></i></a>
@@ -52,7 +52,7 @@
             <p>ModelTheme.All rights reserved.</p>
         </div>
         <div class="background">
-            <a href="#"><img src="/img/back-to-top-arrow.svg" alt=""></a>
+            <a href="#"><img src="/img/back-to-top-arrow.svg" alt="Arrow"></a>
         </div>
     </div>
 </template>

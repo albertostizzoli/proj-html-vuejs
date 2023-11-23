@@ -4,7 +4,7 @@
             <div class="header d-flex justify-content-between align-items-center">
                 <img src="/img/theme_eduprime_logo.png" alt="Logo">
                 <nav>
-                    <ul>
+                    <ul class="d-inline-block">
                         <li class="d-inline-block" v-for="(element, index) in store.list_header" :key="index">
                             <a :href="element.url">{{ element.text }}<i class="fa-solid fa-caret-down ms-1 "></i></a>
                         </li>
@@ -12,14 +12,14 @@
                     <button class="btn-yellow ms-2 fw-bold">VIEW COURSES</button>
                 </nav>
             </div>
-            <div class="jumbotron">
+            <div class="jumbotron pt-5">
                 <h1 class="text-white pt-4 fw-bold"><strong>Key to your success</strong></h1>
                 <h6 class="text-white p-3">EduPrime is the most versatile WordPress theme for educational purposes,
                     showcasting universities, courses, secondary school etc.</h6>
                 <div>
-                    <button class="btn-yellow me-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search
+                    <button class="btn-yellow me-2 mt-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search
                         Courses</button>
-                    <button class="btn-orange ms-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for
+                    <button class="btn-orange ms-2 mt-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for
                         University</button>
                 </div>
             </div>
@@ -48,9 +48,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-ul {
-    display: inline-block;
-}
 
 .btn-yellow {
     background-color: #E9D758;
@@ -62,7 +59,7 @@ ul {
 
 .hero-container {
     background-image: url("../img/theme_slider2_bg-1.jpg");
-    height: 500px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;

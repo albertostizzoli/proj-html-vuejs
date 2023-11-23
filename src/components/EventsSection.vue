@@ -1,5 +1,5 @@
 <template>
-    <section class="events text-center text-white pt-5">
+    <section class="events text-center text-white pt-5 pb-5">
         <img src="/img/upcoming-events-calendar-icon.png" alt="">
         <h2>Upcoming Events</h2>
         <div class="box">

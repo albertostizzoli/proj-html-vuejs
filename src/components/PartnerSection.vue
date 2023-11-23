@@ -5,13 +5,13 @@
             <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy.</p>
         </div>
         <div class="partner-box d-flex justify-content-around w-75">
-            <a href="#"><img class="little" src="/img/partner-2.png" alt="image"></a>
-            <a href="#"><img class="big" src="/img/partner-3.png" alt="image"></a>
-            <a href="#"><img class="big" src="/img/partner-4.png" alt="image"></a>
-            <a href="#"><img class="little" src="/img/partner-5.png" alt="image"></a>
-            <a href="#"><img class="big" src="/img/partner-6.png" alt="image"></a>
-            <a href="#"><img class="big" src="/img/partner-1.png" alt="image"></a>
-            <a href="#"><img class="little" src="/img/partner-7.png" alt="image"></a>
+            <a href="#"><img class="little" src="/img/partner-2.png" alt="Logo-partner"></a>
+            <a href="#"><img class="big" src="/img/partner-3.png" alt="Logo-partner"></a>
+            <a href="#"><img class="big" src="/img/partner-4.png" alt="Logo-partner"></a>
+            <a href="#"><img class="little" src="/img/partner-5.png" alt="Logo-partner"></a>
+            <a href="#"><img class="big" src="/img/partner-6.png" alt="Logo-partner"></a>
+            <a href="#"><img class="big" src="/img/partner-1.png" alt="Logo-partner"></a>
+            <a href="#"><img class="little" src="/img/partner-7.png" alt="Logo-partner"></a>
         </div>
         <div class="wawe">
             <img src="/img/background-wave3.png" alt="">

@@ -9,7 +9,7 @@
             <div class="d-flex w-75 m-2 m-auto pt-3">
                 <div v-for="(element, index) in store.carousel" :key="index" class="image-carousel"
                     :class="element.current ? 'active' : ''">
-                    <img class="w-100" :src="`/img/${element.image}`" alt="images">
+                    <img class="w-100" :src="`/img/${element.image}`" alt="carousel">
                     <p class="mt-4"><strong>{{ element.text }}</strong></p>
                 </div>
             </div>
