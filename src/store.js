@@ -148,4 +148,27 @@ export const store = reactive({
             url: "#",
         }
     ],
+    buttons: [
+        {
+            text: 'ECONOMY'
+        },
+        {
+            text: 'DESIGN'
+        },
+        {
+            text: 'COACHING'
+        },
+        {
+            text: 'BUSINESS'
+        },
+        {
+            text: 'MEDICINE'
+        },
+        {
+            text: 'LAW'
+        },
+        {
+            text: 'FITNESS'
+        },
+    ]
 });

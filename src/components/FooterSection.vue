@@ -45,13 +45,9 @@
                 <h5 class="pt-5"><strong>Search categories</strong></h5>
             </div>
             <div class="d-flex flex-wrap justify-content-end">
-                <button class="btn-orange"><a href="#">ECONOMY</a></button>
-                <button class="btn-orange"><a href="#">DESIGN</a></button>
-                <button class="btn-orange"><a href="#">COACHING</a></button>
-                <button class="btn-orange"><a href="#">BUSINESS</a></button>
-                <button class="btn-orange"><a href="#">MEDICINE</a></button>
-                <button class="btn-orange"><a href="#">LAW</a></button>
-                <button class="btn-orange"><a href="#">FITNESS</a></button>
+                <div v-for="(element, index) in store.buttons" :key="index">
+                    <button class="btn-orange"><a href="#">{{ element.text }}</a></button>
+                </div>
             </div>
             <p>ModelTheme.All rights reserved.</p>
         </div>
