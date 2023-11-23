@@ -1,9 +1,9 @@
 <template>
-    <section class="courses">
+    <section class="bg-white">
         <div class="wawe">
             <img src="/img/svg-1.svg" alt="">
         </div>
-        <div class="courses-box">
+        <div class="courses-box d-flex justify-content-between flex-wrap">
             <h2>Latest Courses</h2>
             <div class="card-box">
                 <img src="/img/Decisions-icon.png" alt="Decision">
@@ -56,9 +56,6 @@ export default {
     }
 }
 
-.courses {
-    background-color: white;
-
     h2 {
         font-weight: 900;
         color: #3D404F;
@@ -69,10 +66,6 @@ export default {
     .courses-box{
         width: 70%;
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
         .card-box {
             text-align: center;
             width: 220px;
@@ -110,5 +103,5 @@ export default {
             }
         }
     }
-}
+
 </style>

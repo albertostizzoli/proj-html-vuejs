@@ -1,25 +1,24 @@
 <template>
-    <div class="hero-container">
-        <div class="background-color">
-            <div class="header">
+    <div class="hero-container text-white">
+        <div class="background">
+            <div class="header d-flex justify-content-between align-items-center">
                 <img src="/img/theme_eduprime_logo.png" alt="Logo">
                 <nav>
                     <ul>
-                        <li v-for="(element, index) in list" :key="index">
+                        <li class="d-inline-block" v-for="(element, index) in list" :key="index">
                             <a :href="element.url">{{ element.text }}<i class="fa-solid fa-caret-down ms-1 "></i></a>
                         </li>
                     </ul>
-                    <button class="btn-yellow ms-2">VIEW COURSES</button>
+                    <button class="btn-yellow ms-2 fw-bold">VIEW COURSES</button>
                 </nav>
             </div>
             <div class="jumbotron">
-                <h1 class="text-white pt-4"><strong>Key to your success</strong></h1>
-                <p class="text-white p-3">EduPrime is the most versatile WordPress theme for educational purposes,
-                    showcasting
-                    universities, courses, secondary school etc.</p>
+                <h1 class="text-white pt-4 fw-bold"><strong>Key to your success</strong></h1>
+                <h6 class="text-white p-3">EduPrime is the most versatile WordPress theme for educational purposes,
+                    showcasting universities, courses, secondary school etc.</h6>
                 <div>
-                    <button class="btn-yellow me-2"><i class="fa-solid fa-magnifying-glass me-2"></i>Search Courses</button>
-                    <button class="btn-orange ms-2"><i class="fa-solid fa-user-plus me-2"></i>Apply for University</button>
+                    <button class="btn-yellow me-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search Courses</button>
+                    <button class="btn-orange ms-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for University</button>
                 </div>
             </div>
         </div>
@@ -83,8 +82,8 @@ ul {
 .btn-yellow {
     background-color: #E9D758;
     color: white;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 20px;
+    border-radius: 40px;
     border: none;
 }
 
@@ -94,10 +93,8 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    font-weight: 700;
-    color: white;
 
-    .background-color {
+    .background{
         background-color: rgba($color: #E56768, $alpha: 0.8);
         position: absolute;
         top: 0;
@@ -107,9 +104,6 @@ ul {
     }
 
     .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding-top: 2rem;
         padding-left: 1.3rem;
         padding-right: 1.7rem;
@@ -123,20 +117,20 @@ ul {
             list-style-type: none;
             margin: 20px 0;
 
-            li {
-                display: inline-block;
-
                 a {
                     color: white;
                     text-decoration: none;
                     padding: 0 10px;
                     font-weight: 800;
                 }
+
+                a:hover{
+                    color: #E9D758;
+                }
             }
         }
 
     }
-}
 
 .icons{
     position: absolute;
@@ -144,7 +138,6 @@ ul {
     left: 0;
     bottom: 200px;
     font-size: 20px;
-    color: white;
 }
 
 .jumbotron {
@@ -155,8 +148,8 @@ ul {
     .btn-orange {
         background-color: white;
         color: #E56768;
-        padding: 10px;
-        border-radius: 30px;
+        padding: 20px;
+        border-radius: 40px;
         border: none;
     }
 }

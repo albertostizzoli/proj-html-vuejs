@@ -1,22 +1,23 @@
 <template>
-    <section class="carousel-box mt-5">
+    <section class="text-center mt-5 pt-5">
         <h2>Faculties available at EduPrime</h2>
-        <div class="text">
-            <p>A single university with a load of courses, tailored to satisfy any student's needs.</p>
+        <div class="w-25 m-5 m-auto">
+            <p class="text-dark pt-3">A single university with a load of courses, tailored to satisfy any student's needs.
+            </p>
         </div>
-        <div class="carousel">
-            <div class="nav-carousel">
+        <div>
+            <div class="d-flex w-75 m-2 m-auto pt-3">
                 <div v-for="(element, index) in carousel" :key="index" class="image-carousel"
                     :class="element.current ? 'active' : ''">
-                    <img :src="`/img/${element.image}`" alt="images">
+                    <img class="w-100" :src="`/img/${element.image}`" alt="images">
                     <p class="mt-4"><strong>{{ element.text }}</strong></p>
                 </div>
             </div>
-            <div class="carousel-content">
-                <div class="img-content">
+            <div class="carousel-content d-flex justify-content-between w-75 text-start">
+                <div class="img-content mt-5">
                     <img src="/img/Gavel-Illustration-e1556884768193.png" alt="Gavel">
                 </div>
-                <div class="text-content mt-3">
+                <div class="w-50 mt-5">
                     <h2>Law Faculty</h2>
                     <p>
                         Learning from world-leading academics and practitioners, you'll not only receive an
@@ -67,55 +68,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.carousel-box {
+h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
 
-    text-align: center;
+.image-carousel {
+    padding: 40px 60px;
+    color: #E56768;
+    border: 1px solid #ECECEE;
+    cursor: pointer;
+    box-shadow: 0 10px 5px #dedede;
 
-    h2 {
-        color: black;
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    .text {
-        width: 25%;
-        margin: 30px auto;
-
-        p {
-            color: black;
-        }
-    }
-
-    .nav-carousel {
-        display: flex;
-        width: 70%;
-        margin: 20px auto;
-    }
-
-    .image-carousel {
-        padding: 40px 60px;
-        color: #E56768;
-        border: 1px solid #ECECEE;
-        cursor: pointer;
-        box-shadow: 0 10px 5px #dedede;
-
-        img {
-            width: 100px;
-        }
-
-        &:hover {
-            background-color: #E56768;
-            color: white;
-            border: none;
-
-            img {
-                filter: brightness(500%);
-            }
-        }
-    }
-
-
-    .active {
+    &:hover {
         background-color: #E56768;
         color: white;
         border: none;
@@ -123,37 +89,39 @@ export default {
         img {
             filter: brightness(500%);
         }
+    }
+}
 
+.active {
+    background-color: #E56768;
+    color: white;
+    border: none;
+
+    img {
+        filter: brightness(500%);
     }
 
-    .carousel-content {
-        width: 70%;
-        margin: 50px auto;
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
+}
 
-        .img-content {
-            width: 450px;
-        }
+.carousel-content {
+    margin: 50px auto;
 
-        .text-content {
-            width: 50%;
+    .img-content {
+        width: 450px;
+    }
 
-            p {
-                color: #8b8b8a;
-                margin: 20px 0;
-            }
+    p {
+        color: #8b8b8a;
+        margin: 20px 0;
+    }
 
-            .btn_red {
-                margin: 20px 0;
-                background-color: #E56768;
-                color: white;
-                padding: 20px;
-                border-radius: 20px;
-                border: none;
-            }
-        }
+    .btn_red {
+        margin: 20px 0;
+        background-color: #E56768;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        border: none;
     }
 }
 </style>
