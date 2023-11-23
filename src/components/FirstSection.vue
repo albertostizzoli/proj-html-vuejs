@@ -4,9 +4,12 @@
             <div class="left w-50">
                 <img class="book_icon" src="/img/Books-icon.png" alt="Book-icon">
                 <h2>Thousand of courses for any type of student</h2>
-                <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a
-                    courses that satisfies your needs within a click away and applies for a course in a matter of
-                    minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides.</p>
+                <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find
+                    a
+                    courses that satisfies your needs within a click away and applies for a course in a matter
+                    of
+                    minutes. EduPrime is ranked as the most versatile university in the world, thanks to the
+                    number of courses it provides.</p>
                 <button class="btn-yellow">Browse through courses</button>
             </div>
             <div class="right">
@@ -60,13 +63,13 @@ export default {
     }
 
 
-.right {
-    width: 50%;
-    margin-left: 50px;
+    .right {
+        width: 50%;
+        margin-left: 50px;
 
-    img {
-        width: 450px;
+        img {
+            width: 450px;
+        }
     }
-}
 }
 </style>

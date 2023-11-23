@@ -1,5 +1,5 @@
 <template>
-    <div class="footer">
+    <div class="footer d-flex">
         <div class="buttons">
             <button class="footer-button">
                 <a href="#"><img src="/img/svg-3.svg" alt="Purchase">Purchase Theme</a>
@@ -16,7 +16,7 @@
             <a href="#"><i class="fa-brands fa-twitter socials p-3 me-2"></i></a>
             <a href="#"><i class="fa-brands fa-instagram socials p-3 me-2"></i></a>
         </div>
-        <div class="links">
+        <div class="links d-flex">
             <div class="text-white">
                 <h3 class="mb-2 fs-5 ps-4">Get EduPrime</h3>
                 <ul class="pt-2">
@@ -51,7 +51,7 @@
             </div>
             <p>ModelTheme.All rights reserved.</p>
         </div>
-        <div class="background">
+        <div class="background d-flex justify-content-end align-items-end">
             <a href="#"><img src="/img/back-to-top-arrow.svg" alt="Arrow"></a>
         </div>
     </div>
@@ -87,7 +87,6 @@ ul li {
 .footer {
     height: 400px;
     background-color: #E56768;
-    display: flex;
     padding-top: 100px;
     color: #ffffffCC;
 
@@ -139,7 +138,6 @@ ul li {
     }
 
     .links {
-        display: flex;
         width: 40%;
     }
 
@@ -177,9 +175,6 @@ ul li {
     }
 
     .background {
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
         width: 10%;
 
         img {

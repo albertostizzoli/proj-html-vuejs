@@ -14,12 +14,14 @@
             </div>
             <div class="jumbotron pt-5">
                 <h1 class="text-white pt-4 fw-bold"><strong>Key to your success</strong></h1>
-                <h6 class="text-white p-3">EduPrime is the most versatile WordPress theme for educational purposes,
+                <h6 class="text-white p-3">EduPrime is the most versatile WordPress theme for educational
+                    purposes,
                     showcasting universities, courses, secondary school etc.</h6>
                 <div>
                     <button class="btn-yellow me-2 mt-2 fw-bold"><i class="fa-solid fa-magnifying-glass me-2"></i>Search
                         Courses</button>
-                    <button class="btn-orange ms-2 mt-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply for
+                    <button class="btn-orange ms-2 mt-2 fw-bold"><i class="fa-solid fa-user-plus me-2"></i>Apply
+                        for
                         University</button>
                 </div>
             </div>
@@ -48,7 +50,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .btn-yellow {
     background-color: #E9D758;
     color: white;

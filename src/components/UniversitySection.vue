@@ -10,14 +10,14 @@
                 <div class="d-flex justify-content-center">
                     <div class="text w-25 mt-5">
                         <h4>Demo Classes</h4>
-                        <p>In the first students try to accomodate with the teaching style and choose their optional courses.</p>
+                        <p>In the first week students try to accomodate with the teaching style and choose their optional courses.</p>
                     </div>
                     <div class="text w-25 mt-5">
                         <h4>Graduation Day</h4>
                         <p>On the day of graduation, all students gather for the ceremony and then network and party among others.</p>
                     </div>
                 </div>
-                <img src="/img/Timeline-Item.png" alt="Time-item">
+                <img src="/img/Timeline-Item.png" alt="Timeline-item">
                 <div class="orientation d-flex">
                     <div class="text-2 w-25">
                         <h4>Orientation</h4>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="text-2 w-25">
                         <h4>Evaluation</h4>
-                        <p>At the end of a semester, students take a general evaluation test for every subjectthey're learning.</p>
+                        <p>At the end of a semester, students take a general evaluation test for every subject they're learning.</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
     .contents {
         background-color: #E56768;
 

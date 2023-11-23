@@ -2,7 +2,7 @@
     <section class="events text-center text-white pt-5 pb-5">
         <img src="/img/upcoming-events-calendar-icon.png" alt="">
         <h2>Upcoming Events</h2>
-        <div class="box">
+        <div class="box d-flex justify-content-evenly w-75">
             <div class="boxes" v-for="(element, index) in store.events" :key="index">
                 <h3>{{ element.title }}</h3>
                 <h6><i class="fa-regular fa-calendar-days pe-2"></i>{{ element.date }}</h6>
@@ -48,9 +48,6 @@ export default {
     }
 
     .box {
-        display: flex;
-        justify-content: space-evenly;
-        width: 70%;
         margin: 0 auto;
 
         .boxes {

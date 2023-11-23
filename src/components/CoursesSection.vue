@@ -3,7 +3,7 @@
         <div class="wawe">
             <img src="/img/svg-1.svg" alt="">
         </div>
-        <div class="courses-box d-flex justify-content-between flex-wrap">
+        <div class="courses-box d-flex justify-content-between flex-wrap w-75">
             <h2>Latest Courses</h2>
             <div class="card-box" v-for="(element, index) in store.courses" :key="index">
                 <img :src="`/img/${element.image}`" alt="courses">
@@ -48,7 +48,6 @@ h2 {
 }
 
 .courses-box {
-    width: 70%;
     margin: 0 auto;
 
     .card-box {
@@ -63,10 +62,6 @@ h2 {
         h4 {
             color: #3D404F;
             font-weight: 900;
-        }
-
-        h5 {
-            margin: 10px;
         }
 
         b {
