@@ -53,12 +53,29 @@ export const store = reactive({
             text: 'Graphic Design',
         },
     ],
+    events: [
+        {
+            title: 'Coaching Sessions',
+            date: '20 May 21:30 PM',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]',
+        },
+        {
+            title: 'Coaching Sessions',
+            date: '24 Mar 18:00 PM',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]',
+        },
+        {
+            title: 'Coaching Sessions',
+            date: '12 Feb 13:30 PM',
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]',
+        },
+    ],
     courses: [
         {
             image: 'Decisions-icon.png',
             text: 'Make Better Decisions',
             teacher: 'James Colins',
-            price: '$: 21,00',
+            price: '$ 21,00',
         },
         {
             image: 'Speaker-icon.png',

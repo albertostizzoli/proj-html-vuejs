@@ -8,8 +8,8 @@
             <div class="card-box" v-for="(element, index) in store.courses" :key="index">
                 <img :src="`/img/${element.image}`" alt="">
                 <h4>{{ element.text }}</h4>
-                <h5><i class="fa-regular fa-user"></i> Teacher:<b>{{ element.teacher }}</b></h5>
-                <h5><i class="fa-regular fa-money-bill-1"></i> Price:<b>{{ element.price }}</b></h5>
+                <h5><i class="fa-regular fa-user"></i> Teacher: <b>{{ element.teacher }}</b></h5>
+                <h5><i class="fa-regular fa-money-bill-1"></i> Price: <b>{{ element.price }}</b></h5>
                 <button class="btn-red"><i class="fa-regular fa-eye pe-2"></i>View Course</button>
             </div>
         </div>

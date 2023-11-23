@@ -3,22 +3,10 @@
         <img src="/img/upcoming-events-calendar-icon.png" alt="">
         <h2>Upcoming Events</h2>
         <div class="box">
-            <div class="boxes">
-                <h3>Coaching Sessions</h3>
-                <h6><i class="fa-regular fa-calendar-days pe-2"></i>20 May 21:30 PM</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]</p>
-                <button class="btn-red"><i class="fa-solid fa-plus pe-2"></i>Find More</button>
-            </div>
-            <div class="boxes">
-                <h3>Coaching Sessions</h3>
-                <h6><i class="fa-regular fa-calendar-days pe-2"></i>24 Mar 18:00 PM</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]</p>
-                <button class="btn-red"><i class="fa-solid fa-plus pe-2"></i>Find More</button>
-            </div>
-            <div class="boxes">
-                <h3>Coaching Sessions</h3>
-                <h6><i class="fa-regular fa-calendar-days pe-2"></i>12 Feb 13:30 PM</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. [...]</p>
+            <div class="boxes" v-for="(element, index) in store.events" :key="index">
+                <h3>{{ element.title }}</h3>
+                <h6><i class="fa-regular fa-calendar-days pe-2"></i>{{ element.date }}</h6>
+                <p>{{ element.text }}</p>
                 <button class="btn-red"><i class="fa-solid fa-plus pe-2"></i>Find More</button>
             </div>
         </div>
@@ -27,9 +15,14 @@
 </template>
 
 <script>
+import { store } from '../store.js';
 export default {
     name: 'EventsSection',
-
+    data() {
+        return {
+            store
+        }
+    },
 }
 </script>
 
