@@ -53,6 +53,32 @@ export const store = reactive({
             text: 'Graphic Design',
         },
     ],
+    courses: [
+        {
+            image: 'Decisions-icon.png',
+            text: 'Make Better Decisions',
+            teacher: 'James Colins',
+            price: '$: 21,00',
+        },
+        {
+            image: 'Speaker-icon.png',
+            text: 'How to be a speaker',
+            teacher: 'James Colins',
+            price: 'Free',
+        },
+        {
+            image: 'Network-icon.png',
+            text: 'Network Introductions',
+            teacher: 'James Colins',
+            price: 'Free',
+        },
+        {
+            image: 'Brand-icon.png',
+            text: 'Brand Management',
+            teacher: 'James Colins',
+            price: 'Free',
+        },
+    ],
     footer_left: [
         {
             text: "Request a website",
